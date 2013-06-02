@@ -1,0 +1,55 @@
+// VARIABLES
+// --------------------------------------------
+
+// Fonts
+// -------------------------
+
+@import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200');
+@import url('http://fonts.googleapis.com/css?family=Lobster');
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,300,200');
+
+//@import url("//fonts.googleapis.com/css?family=Open+Sans+Condensed:700");
+$baseFontFamily: Segoe UI, Helvetica, Arial, sans-serif;
+$baseFontSize: 14px;
+$baseLineHeight: 1.4em;
+
+$headerFontFamily: 'Open Sans Condensed', 'Helvetica Narrow', 'Arial Narrow', sans-serif; 
+$headerFontWeight: 700;
+
+$altFontFamily: Georgia, Times New Roman, serif;
+
+
+// Color Palette
+// -------------------------
+
+$color1: #6659AD; // dark purple
+$color2: #E88087; // rosey pink
+$color3: #FA9B9B; // blush
+$color4: #F7F3D5; // sand
+//$color5: #0A1C28; // midnight blue
+
+// Grays
+// -------------------------
+$black:                 #000 !default;
+$grayDarker:            #222 !default;
+$grayDark:              #333 !default;
+$gray:                  #555 !default;
+$grayLight:             #999 !default;
+$grayLighter:           #eee !default;
+$white:                 #fff !default;
+
+// Accent colors
+// -------------------------
+$blue:                  #049cdb !default;
+$blueDark:              #0064cd !default;
+$green:                 #46a546 !default;
+$red:                   #9d261d !default;
+$yellow:                #ffc40d !default;
+$orange:                #f89406 !default;
+$pink:                  #c3325f !default;
+$purple:                #7a43b6 !default;
+
+
+// Other
+// --------------------------
+$topBarHeight:			3rem;

@@ -1,0 +1,30 @@
+@import url("//fonts.googleapis.com/css?family=Open+Sans+Condensed:700");
+body {
+  font-family: Segoe UI, Helvetica, Arial, sans-serif; }
+
+body, .left-column, .map-area {
+  height: 100%; }
+
+.left-column {
+  float: left;
+  width: 18rem;
+  background-color: #eeeeee; }
+
+.left-column > .logo,
+.left-column .filters-area > *,
+.left-column > a {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.logo {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin: 0 0 .5rem;
+  background-color: #3c7f87;
+  color: white; }
+
+.filter {
+  padding: .5rem; }
+
+.filter label {
+  display: block; }
