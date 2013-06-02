@@ -13,8 +13,8 @@ $baseFontFamily: Segoe UI, Helvetica, Arial, sans-serif;
 $baseFontSize: 14px;
 $baseLineHeight: 1.4em;
 
-$headerFontFamily: 'Open Sans Condensed', 'Helvetica Narrow', 'Arial Narrow', sans-serif; 
-$headerFontWeight: 700;
+$headerFontFamily: Raleway, Helvetica, Arial, sans-serif;
+$headerFontWeight: 300;
 
 $altFontFamily: Georgia, Times New Roman, serif;
 
@@ -22,7 +22,7 @@ $altFontFamily: Georgia, Times New Roman, serif;
 // Color Palette
 // -------------------------
 
-$color1: #6659AD; // dark purple
+$color1: #6659AD; // purple
 $color2: #E88087; // rosey pink
 $color3: #FA9B9B; // blush
 $color4: #F7F3D5; // sand
@@ -53,3 +53,18 @@ $purple:                #7a43b6 !default;
 // Other
 // --------------------------
 $topBarHeight:			3rem;
+
+$btnColor:				$color3;
+$primaryBtnColor:		hsl(hue($color1), saturation($color3), lightness($color3));
+$btnWarningColor:		darken($color2, 15%);
+
+// Z-index master list
+// -------------------------
+// Used for a bird's eye view of components dependent on the z-axis
+// Try to avoid customizing these :)
+$zindexDropdown:          1000;
+$zindexPopover:           1010;
+$zindexTooltip:           1030;
+$zindexFixedNavbar:       1030;
+$zindexModalBackdrop:     1040;
+$zindexModal:             1050;
